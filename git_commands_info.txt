@@ -9,4 +9,11 @@ git restore --source origin/main filename
 
 git commit --append 
         - i to write esc+:+wq to quit
-hello
+
+git rebase -i {commit_id} [all the commits after this ID wil come]
+    options:
+        1. pick -> reword - It take to same screen as (line 10 command) change commit message only
+        2. pick -> edit - change commit contents and/or message
+        3. squash -> merge commits
+
+
