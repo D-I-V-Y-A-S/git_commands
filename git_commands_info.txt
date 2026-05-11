@@ -1,0 +1,12 @@
+git mv old_file_name new_file_name
+        - we need to immediately commit and push to github 
+
+git restore . (or) git restore nature.txt
+        - The local code files resets to last staging code level 
+
+git restore --source origin/main filename
+        - If we dont need all the files to go back to last commit level ,only one file is needed to restore
+
+git commit --append 
+        - i to write esc+:+wq to quit
+hello
